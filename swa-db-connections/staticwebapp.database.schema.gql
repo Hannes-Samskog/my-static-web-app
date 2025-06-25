@@ -1,4 +1,15 @@
-type Person @model {
+type Product @model {
   id: ID
-  Name: String
+  supplier: String
+  url: String
+  product_line: String
+  article: String
+  images: [String]
+  power: String
+  lumen: String
+  color_temp: String
+  size: String
+  control_system: String
+  optic_type_code: String
+  mounting: String
 }
